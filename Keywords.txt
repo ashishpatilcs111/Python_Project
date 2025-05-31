@@ -1,79 +1,117 @@
-"UPI", "Transaction Failed", "Receive Money"
-"Mobile Banking", "Update 15H details", "No Such option"
-"AEPS/IMPS", "Increase Limit", ""
-"ATM", "Authorize ATM", "NO Record found"
-"Debit Card", "Debit Card Issuance", "Unable to Authorize"
-"Mobile Banking", "Transaction Failed", "Deducted Amount Funds Settlement"
-"ATM", "Money Debited", "Unable to Hotlist Card"
-"Debit Card", "Debit Card Issuance", "Unable to Authorize"
-"SMS Gateway Services", "Not Receiving SMS", ""
-"SMS Gateway Services", "Not Receiving SMS", "Not Receiving OTP"
-"ATM", "Unable to Withdraw Money", ""
-"ATM", "Inactive ATM", "Unable to Punch New"
-"Debit Card", "", ""
-"Mobile Banking", "Registration", "Authentication Failed"
-"Debit Card", "Debit Card Issuance", "Unable to issue Personalised Debit Card"
-"POS", "Disputes", "Fraud Transaction"
-"AEPS/IMPS", "Charges Info", "Unknown Debit"
-"Debit Card", "Issue Card", "Record Not Processed"
-"Debit Card", "Hotlist Card", "Unable to Issue New Card"
-"UPI", "Unable to Link Account with UPI app", ""
-"NEFT/RTGS", "Can't Process Request", ""
-"Mobile Banking", "Unblock Account Request", ""
-"ATM", "Unauthorize ATM", "Remove STOP Services"
-"Mobile Banking", "NEFT/IMPS", "Unable to do Transactions"
-"ATM", "Unable to Authorize ATM", ""
-"ATM", "PIN Generation Issue", "Invalid Card"
-"ATM", "Unauthorize ATM", "Debit Card"
-"Internet Banking", "Unblock IB Services", "Inactive Account"
-"SMS Gateway Services", "Not Receiving SMS", "Wrong /Other Mobile Numer"
-"Mobile Banking", "Login Issue", ""
-"Debit", "Unable to Hotlist Card", ""
-"Debit", "Debit Card Issuance", "Remove STOP Services"
-"Mobile Banking", "", ""
-"AEPS/IMPS", "Wrong Transaction Fee", "Multiple Time Debited"
-"Debit Card", "Debit Card Issuance", "Record Not Processed"
-"Debit Card", "Punching Isssue in XTRANET", "Record Not Processed"
-"ATM", "Successful Transaction", "Wallet Not Updated"
-"AEPS/IMPS", "Successful Transaction", "Wrong/Unknown Charges"
-"ATM", "Card Expired", "Unable to Hotlist Card"
-"UPI", "AutoDebited", "Unknown Debit"
-"ATM", "Unable to register ATM Complaint", ""
-"Others", "Hold Details", ""
-"Mobile Banking", "Utility Bills", "Mobile Recharge Failed"
-"ATM", "Debit Card Issuance", "Record Not Processed"
-"SMS Gateway Services", "Not Receiving SMS", "Correct Mobile Number"
-"PFMS/DBT", "Bank Failure", "Unable to add Account"
-"ATM", "Unable to Withdraw Money", "Unable to Process Transaction"
-"Debit Card", "Unable to Punch Debit Card", ""
-"Debit Card", "Authorize ATM", "Record Not Processed"
-"Mobile Banking", "Unable to Process Transaction", ""
-"Debit Card", "Unable to Withdraw Money", "Transanction not Permitted"
-"Debit Card", "Debit Card Issuance", "Unknown Debit"
-"UPI", "Transaction Failed", "Unable to Send Money"
-"ATM", "Hotlist Card", ""
-"Mobile Banking", "Unable to Fetch Account name", ""
-"ATM", "Hotlist Card", "Unable to Issue New Card"
-"ATM", "Remove STOP Services", ""
-"ATM", "Card hotlisted", "Status Active"
-"SMS Gateway Services", "Not Receiving SMS", "Not Receiving OTP"
-"Mobile Banking", "Problem adding Another beneficiary", ""
-"UPI", "Enable UPI Channel", ""
-"Debit Card", "Debit Card Issuance", "unable to Activate new card"
-"UPI", "IMPS", "Wrong /Unknown charges"
-"Mobile Banking", "IMPS", "Excess Charges"
-"AEPS/IMPS", "Debit Charges Details", ""
-"ATM", "Remove Hold", ""
-"Bharat QR/BHIM QR", "Unable to Receive Funds", "Above 10000"
-"Bharat QR/BHIM QR", "Unable to Receive Funds", "Security Concerns"
-"UPI", "GooglePay/PhonePay", "Unable to set PIN"
-"AEPS/IMPS", "Amount Debited", "Unknown Charges"
-"ATM", "Money Deposit", "Incorrect available balance"
-"UPI", "Transaction Failed", "Receive Money"
-"Mobile Banking", "Login Issue", "Other/Wrong Mobile number"
-"Debit Card", "Debit Card Issuance", "Insta card Product already available"
-"Debit Card", "Debit Card Issuance", "Unable to issue InstaX card"
-"Debit Card", "Debit Card Issuance", "Card Issued"
-"ATM", "ATM Card Issuance", "Card Already Available"
-"Internet Banking", "Invalid Constitution Code", ""
-"Debit Card", "Debit Card Issuance", "Record/Requests Already Exists"
+    "UPI > Transaction Failed": [
+        "phonepe", "gpay", "bhim", "unable to send money", 
+        "receive money", "autodebited", "unknown debit", 
+        "payment stuck", "transaction timeout", "amount debited but not received"
+    ],
+    "Mobile Banking > Update 15H details": [
+        "no such option", "option not available", 
+        "unable to update 15h", "form 15h submission failed"
+    ],
+    "AEPS/IMPS > Increase Limit": [
+        "limit enhancement", "unable to increase limit", 
+        "daily limit exceeded", "limit modification"
+    ],
+    "ATM > Authorize ATM": [
+        "no record found", "unable to authorize ATM", 
+        "invalid request", "link failure"
+    ],
+    "Debit Card > Debit Card Issuance": [
+        "unable to authorize", "record not processed", 
+        "unable to issue personalised debit card", 
+        "unable to activate new card", "insta card issue", 
+        "card issued", "record already exists"
+    ],
+    "Mobile Banking > Transaction Failed": [
+        "deducted amount funds settlement", 
+        "unable to process transaction", 
+        "failed imps", "unknown debit", "network error", 
+        "upi failure"
+    ],
+    "ATM > Money Debited": [
+        "unable to hotlist card", "wallet not updated", 
+        "status active", "card expired", "atm error"
+    ],
+    "SMS Gateway Services > Not Receiving SMS": [
+        "not receiving otp", "wrong mobile number", 
+        "correct mobile number", "sms not delivered"
+    ],
+    "ATM > Unable to Withdraw Money": [
+        "unable to process transaction", 
+        "insufficient balance", "invalid card", 
+        "unauthorized atm", "limit reached"
+    ],
+    "ATM > Inactive ATM": [
+        "unable to punch new", "card inactive", 
+        "service unavailable"
+    ],
+    "Mobile Banking > Registration": [
+        "authentication failed", "invalid credentials", 
+        "token not received", "error during onboarding"
+    ],
+    "POS > Disputes": [
+        "fraud transaction", "double debit", 
+        "transaction not authorized", "merchant issue"
+    ],
+    "AEPS/IMPS > Charges Info": [
+        "unknown debit", "extra charges", 
+        "charge not explained", "wrong deduction"
+    ],
+    "Debit Card > Issue Card": [
+        "record not processed", "request not captured", 
+        "xtranet error"
+    ],
+    "Debit Card > Hotlist Card": [
+        "unable to issue new card", "card not hotlisted", 
+        "already hotlisted"
+    ],
+    "UPI > Unable to Link Account with UPI app": [
+        "account linking failed", "bank not listed", 
+        "upi pin not set", "profile not created"
+    ],
+    "NEFT/RTGS > Can't Process Request": [
+        "request not processed", "server error", 
+        "limit exceeded", "credentials invalid"
+    ],
+    "Mobile Banking > Unblock Account Request": [
+        "account inactive", "block removed", 
+        "service restored"
+    ],
+    "ATM > PIN Generation Issue": [
+        "invalid card", "unable to generate pin", 
+        "link expired"
+    ],
+    "Internet Banking > Unblock IB Services": [
+        "inactive account", "unblock request", 
+        "ib login issue"
+    ],
+    "Mobile Banking > Login Issue": [
+        "other/wrong mobile number", "invalid credentials", 
+        "app not working", "server down"
+    ],
+    "AEPS/IMPS > Wrong Transaction Fee": [
+        "multiple time debited", "extra charges", 
+        "invalid charges"
+    ],
+    "ATM > Successful Transaction": [
+        "wallet not updated", "money not credited", 
+        "acknowledgement missing"
+    ],
+    "AEPS/IMPS > Successful Transaction": [
+        "wrong/unknown charges", "transaction complete but no credit"
+    ],
+    "UPI > AutoDebited": [
+        "unknown debit", "auto payment triggered", 
+        "standing instruction issue"
+    ],
+    "Mobile Banking > Utility Bills": [
+        "mobile recharge failed", "bill not paid", 
+        "wrong amount charged"
+    ],
+    "Bharat QR/BHIM QR > Unable to Receive Funds": [
+        "above 10000", "security concerns", 
+        "limit crossed", "account not linked"
+    ],
+    "UPI > GooglePay/PhonePay": [
+        "unable to set pin", "auth failed", 
+        "upi setup failed"
+    ]
