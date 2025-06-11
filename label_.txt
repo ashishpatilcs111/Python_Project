@@ -1,0 +1,39 @@
+<View>
+  <style>
+    .view{border: 1px solid rgb(204, 204, 204);border-radius: 10px;padding: 5px 5px;max-height: 80vh;white-space: pre-wrap; overflow:hidden; }
+    .view iframe{min-height:50vh;overflow:hidden;}
+
+  </style>
+  <View className="view" style="overflow-y:auto;">
+    <Header name="header" value="$Subject" />
+    <HyperText className="content" name="text" value="&lt;pre style='font-size:16px;overflow-y:auto; white-space: pre-wrap !important;' &gt;$html&lt;/pre&gt;"  />
+  </View>
+  <Taxonomy name="classification" toName="text" showFullPath="true" pathSeparator=" > " maxUsages="1" minWidth="500px" placeholder="Classify" required="true" requiredMessage="Classification is required" >
+	<Choice value="Internet banking &gt; Limit Modification &gt; Limit Increase &gt; Corporate"/> 
+	<Choice value="Internet banking &gt; Limit Modification &gt; Limit Increase &gt; Retail"/> 
+	<Choice value="Internet banking &gt; Account Access &gt; Request &gt; Lock"/> 
+	<Choice value="Internet banking &gt; Account Access &gt; Request &gt; Unlock"/> 
+	<Choice value="Internet banking &gt; User Modification &gt; Add/Remove Users &gt; Corporate"/> 
+	<Choice value="Internet banking &gt; Login Issue &gt; Forgot Password &gt; Retail"/> 
+	<Choice value="Internet banking &gt; Login Issue &gt; Forgot Password &gt; Corporate"/> 
+	<Choice value="Internet banking &gt; Missing Services &gt; Missing Services in Net banking"/> 
+	<Choice value="Internet banking &gt; Error initiating IB &gt; Constitution code is invalid error"/> 
+	<Choice value="Internet banking &gt; Transaction Issue &gt; Money Debited &gt; Beneficiary Not Credited"/> 
+	<Choice value="Internet banking &gt; Transaction Issue &gt; Unable To Make Payment"/> 
+	<Choice value="Internet banking &gt; Transaction Issue &gt; Amount Returned To customer &gt; Penalty Levied"/> 
+	<Choice value="Internet banking &gt; Account Access &gt; Unblock IB Services &gt; Inactive Account"/> 
+  </Taxonomy>  
+  <Taxonomy name="sentiment" toName="text" maxUsages="1" placeholder="Select Sentiment" required="true" requiredMessage="Sentiment is required" >
+    <Choice value="Positive"/>
+    <Choice value="Negative"/>
+    <Choice value="Neutral"/>
+  </Taxonomy>  
+
+  <View style="border: 1px solid #CCC; border-radius: 10px; padding: 5px; max-height:80vh; overflow-y:auto white-space: pre-wrap; background:#14141433;monospace !important;">
+  <Header name="meta" value="Meta Data" style="font-family: monospace; font-size: 18px" ></Header>
+  <Text  name="masterdepartment" value="MasterDepartment: $MasterDepartment"  />
+  <Text  name="department" value="Department: $Department" />
+  <Text  name="querytype" value="QueryType: $QueryType"/>
+  <Text  name="subquerytype" value="SubQueryType: $SubQueryType"/>
+</View>
+</View>
